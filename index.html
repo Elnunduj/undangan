@@ -23,10 +23,15 @@
   </div>
 
   <!-- Audio -->
-  <audio id="bg-music" autoplay loop>
+  <audio id="song">
     <source src="ZAYN, Zhavia Ward - A Whole New World (End Title) (From AladdinOfficial Video) (1).mp3" type="audio/mpeg">
     Your browser does not support the audio element.
   </audio>
-
 </body>
+  
+<script>
+          window.addEventListener('click', () => {
+            document.getElementById("song").play()
+        });
+</script>
 </html>
